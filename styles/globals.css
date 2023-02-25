@@ -37,13 +37,20 @@ a {
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-  width: 20vw;
+  border-radius: 5vh;
+  width: fit-content;
+  min-height: 20px;
   height: 10vh;
-  font-size: 2rem;
-  background-color: transparent;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  background-image: url("../public/images/flowers.webp");
+  background-size: 100%;
   margin-top: 85vh;
-  margin-left: 40vw;
+  
 }
