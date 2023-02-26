@@ -43,9 +43,10 @@ main {
 
 button {
   border-radius: 5vh;
-  width: fit-content;
-  min-height: 20px;
   height: 10vh;
+  width: 20vw;
+  max-height: 80px;
+  max-width: 200px;
   padding: 10px;
   font-size: 1rem;
   text-align: center;
@@ -60,7 +61,7 @@ button {
   width: 40vw;
   max-height: 200px;
   max-width: 400px;
-  font-size: xx-large;
+  font-size: 2rem;
   letter-spacing: 0.005rem;
   display: flex;
   justify-content: center;
