@@ -61,8 +61,7 @@ button {
   width: 40vw;
   max-height: 200px;
   max-width: 400px;
-  font-size: xx-large;
-  letter-spacing: 0.005rem;
+  font-size: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
