@@ -61,10 +61,11 @@ button {
   width: 40vw;
   max-height: 200px;
   max-width: 400px;
-  font-size: 5vh;
+  font-size: xx-large;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: black;
 }
 
