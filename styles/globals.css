@@ -52,5 +52,19 @@ button {
   background-image: url("../public/images/flowers.webp");
   background-size: 100%;
   margin-top: 85vh;
-  
 }
+
+.popup-content {
+  border-radius: 15px;
+  height: 20vh;
+  width: 40vw;
+  max-height: 200px;
+  max-width: 400px;
+  font-size: xx-large;
+  letter-spacing: 0.005rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
