@@ -1,9 +1,6 @@
-import { Inter } from 'next/font/google'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
@@ -45,9 +42,7 @@ export default function Home() {
       backgroundPosition: 'center center',
     };
 
-    const style = {
-      backgroundColor: 'rgba(255, 160, 122, 0.7)',
-    };
+    
  
   return (
     <>
@@ -58,7 +53,6 @@ export default function Home() {
           onClose={() => setIsOpen(false)} 
           onOpen={handlePopupOpen}
           overlayStyle={overlayStyle}
-          style={style}
         >
           <div>{popupContent}</div>
         </Popup>
