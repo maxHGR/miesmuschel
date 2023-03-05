@@ -1,0 +1,25 @@
+.chordBoxComponent {
+    margin: 10%; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.noteBoxComponent {
+    display: flex;
+    justify-content: center;
+    border-radius: 3vh;
+    width: 10vw;
+    min-height: 10vh;
+    font-size: 3.5rem;
+    flex-basis: 20%;
+}
+
+.noteHeader {
+    margin: 8%;
+    min-height: 10vh;
+    width: 40%;
+    margin-left: 30%;
+    font-size: 3.5rem;
+}

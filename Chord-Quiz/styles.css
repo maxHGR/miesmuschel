@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(236, 225, 225);
+  }
+  
+  details {
+    text-align: right;
+    color: #F48D79;
+    padding: 3vh;
+  }
+  
+  #inputButton {
+    width: 15vh;
+    background-color: white;
+  } 
+  
+  input {
+    outline: none;
+    border: none;
+    border-color: transparent;
+    border-radius: 3vh;
+    margin: auto;
+    text-align: center;
+  }
+  textarea:focus, input:focus{
+      outline: none;
+  }
+  
+  #void {
+    margin: 5vh 5vh 10vh 5vh;
+    text-align: center;
+    align-content: center;
+    font-size: 5vh;
+    background-color: #F48D79;
+    color: white;
+    border: 5px double rgba(255, 255, 255, .5);
+    border-radius: 5vh;
+    height: auto;
+    width: auto;
+  }
+  
+  #flexNote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #noteName {
+    display: inline-block;
+    padding: 2vh;
+    border: 1px solid rgb(46, 243, 233);
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10vh;
+    background-color: white;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+  }
+  
+  .showbox {
+    height: 12vh;
+    width: 12vh;
+    border: 2px solid lightblue;
+    border-radius: 3vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    background-color: white;
+  }
+  
+  .chord {
+    margin: auto;
+  }
+  
+  #guess {
+    flex: 1 1 auto;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 5vh;
+    text-transform: uppercase;
+  }
+  
+  button {
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    margin-top: 8vh;
+    background-color: #00a7a7;
+    color: white;
+    font-size: 7vh;
+  }
+  
+  .blurry {
+    color: white;
+  }
+  
+  .multi-selector{
+      width: max-content; 
+      padding: 0 2vh 3vh 2vh;
+  }
+  .select-field{
+      border: 1px solid lightblue ;
+      
+      border-radius: 1vh;
+  }
+  .select-field,.task,.list{
+      width: 100%;
+      background-color: white;
+      padding: 0.3rem;
+  }
+  .list{
+      border-radius: 1vh;
+      box-shadow: 0 30px 60px rgb(0,0,0,0.2);
+      display: none;
+  }
+  .down-arrow{
+      font-size: 1.2rem;
+      display: inline-block;
+      cursor: pointer;
+      transition: 0.2s linear;
+  }
+  .task {
+      display: block;
+      padding-left: 0;
+  }
+  .task span {
+      float: right;
+      font-size: 0.6rem;
+      padding-top: 6px;
+  }
+  .task:hover {
+      background-color: aliceblue;
+  }
+  .show{
+      display: block;
+  }
+  .rotate180{
+      transform: rotate(-180deg);
+      color: grey;
+  }
+  
+  #inputButton {
+    font-size: 1.5rem;
+    background-color: white;
+  }
+  
+  

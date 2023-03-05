@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chord Generator Quiz</title>
+  <script type="text/javascript"></script>
+</head>
+
+<body>
+  <header>
+    <div id="void">
+      <p onclick="reload()">Chord Generator</p>
+    </div>
+  </header>
+  <div class="multi-selector">
+
+    <div class="select-field">
+      <input type="button" name="" placeholder="Chords" id="inputButton" class="input-selector" value="Chords">
+      <span class="down-arrow">&blacktriangledown;</span>
+    </div>
+    <!---------List of checkboxes and options----------->
+    <div class="list">
+
+      <label for="All" class="task">
+        <input type="checkbox" name="" id="all" value="getRandomChord">
+        All
+      </label>
+      <label for="Major" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getMajorChord">
+        Major
+        <span>M</span>
+      </label>
+      <label for="minor" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getMinorChord">
+        minor
+        <span>m</span>
+      </label>
+      <label for="Major 7" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getMajor7Chord">
+        Major 7
+        <span>M7</span>
+      </label>
+      <label for="minor 7" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getMinor7Chord">
+          minor 7
+         <span>m7</span>
+      </label>
+      <label for="minor 7 b5" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getMinor7b5Chord">
+        minor 7b5
+        <span>m7b5</span>
+      </label>
+      <label for="Diminished 7" class="task">
+        <input type="checkbox" name="" class="checkbox" value="getDiminished7Chord">
+        Diminished 7
+        <span>dim7</span>
+      </label>
+
+    </div>
+  </div>
+
+  <details>
+    <summary>
+      Hint
+    </summary>
+    <p id="test"></p>
+  </details>
+
+  <div id="flexNote">
+    <div id="noteName" onclick="noteGuess()"></div>
+  </div>
+  <div class="flex" id="chordContainer">
+  </div>
+
+  <div class="flex">
+    <button onclick="refresh() ">Refresh</button>
+    <button type="button" onclick="checkbox()">Checkbox</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+
